@@ -1,0 +1,10 @@
+Description:
+
+  Deploy the artifacts to ec2 instnces backed by alb or autoscaling group using jenkins and aws code deploy
+
+
+Steps:
+
+1. Ec2 Role to interact with s3 (optional)
+2. Code deploy Service role to interact with ec2,ELB and autoscaling group
+3. Jenkins Server and client servers should be present
